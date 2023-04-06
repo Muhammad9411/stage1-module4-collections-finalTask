@@ -12,7 +12,6 @@ public class LessonsGetter {
 
         for (Map.Entry<String, List<String>> e : timetable.entrySet()) {
             for (String s : e.getValue()) {
-                System.out.println(s);
                 result.add(s);
             }
         }
